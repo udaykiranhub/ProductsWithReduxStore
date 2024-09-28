@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Products />} />
+        <Route path="/ProductsWithReduxStore" element={<Products />} />
       </Routes>
     </BrowserRouter>
   );
