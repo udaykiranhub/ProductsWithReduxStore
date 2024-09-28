@@ -1,0 +1,86 @@
+.product{
+    box-shadow: 5px 5px 10px 10px rgba(158, 163, 235, 0.877);
+}
+
+@media only screen and (max-width: 768px) {
+    .heading {
+background-color: rgb(149, 58, 154);
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .heading {
+background-color: rgb(68, 0, 255);
+    }
+  }
+  .heading {
+    background-color: rgb(45, 206, 28);
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    color:white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .heading:hover {
+    background-color: rgb(57, 32, 221); 
+    transform: scale(1.05); 
+    color:white;
+  }
+  
+
+  .product{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .product:hover {
+    background-color: rgb(57, 32, 221); 
+    transform: scale(1.06); 
+    color:white;
+  }
+
+  .loading{
+    text-align: center;
+    animation-name: load;
+    animation-duration: 0.5s;
+    font-size: 30px;
+   margin-top: 20%;
+ 
+    animation-iteration-count: infinite;
+  }
+  @keyframes load{
+    0%{
+     transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+  
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+
+  .select{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .select:hover {
+ 
+    transform: scale(1.05); 
+  }
+
+  
+  .search{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .search:hover {
+ 
+    transform: scale(1.05); 
+  }
